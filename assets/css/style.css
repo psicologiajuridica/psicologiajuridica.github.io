@@ -1,0 +1,69 @@
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300); */
+@import url(https://fonts.googleapis.com/css?family=Poppins:700,600,500,400,300);
+
+body {
+    font-family: "Poppins", "sans-serif";
+}
+
+.banner {
+    padding: 15rem 10px;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 0 0 10px #000;
+}
+
+
+.introducao,
+.breve-historia,
+.desenvolvimento2 {
+    padding: 50px 0;
+}
+
+.introducao p,
+.introducao ul,
+.breve-historia p,
+.breve-historia ul,
+.desenvolvimento2 p,
+.desenvolvimento2 ul {
+    text-align: justify;
+    font-size: 19px;
+}
+
+.topicos li {
+   margin-bottom: 25px;
+}
+
+
+.left-img {
+    margin: 0 40px 40px 0;
+    width: 48%;
+    float: left;
+}
+
+.right-img {
+    display: flex;
+    margin: 0 0 40px 40px;
+    width: 48%;
+    float: right;
+}
+
+
+
+/* responsivo */
+
+@media screen and (max-width: 767px) {
+
+    .right-img,
+    .left-img {
+        width: 100%;
+        margin: 40px 0;
+    }
+    
+}
