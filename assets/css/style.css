@@ -24,6 +24,10 @@ body {
     padding: 50px 0;
 }
 
+a {
+    word-break: break-all;
+}
+
 .sessao-artigo p,
 .sessao-artigo ul,
 .sessao-artigo a,
