@@ -19,19 +19,16 @@ body {
     text-shadow: 0 0 10px #000;
 }
 
-
-.introducao,
-.breve-historia,
-.desenvolvimento2 {
+.sessao-artigo,
+.desenvolvedores {
     padding: 50px 0;
 }
 
-.introducao p,
-.introducao ul,
-.breve-historia p,
-.breve-historia ul,
-.desenvolvimento2 p,
-.desenvolvimento2 ul {
+.sessao-artigo p,
+.sessao-artigo ul,
+.sessao-artigo a,
+.desenvolvedores p,
+.desenvolvedores ul {
     text-align: justify;
     font-size: 19px;
 }
@@ -54,6 +51,15 @@ body {
     float: right;
 }
 
+
+.referencias {
+    background-color: #e5e5e5;
+}
+
+.desenvolvedores {
+    color: #fff;
+    background-color: #000;
+}
 
 
 /* responsivo */
